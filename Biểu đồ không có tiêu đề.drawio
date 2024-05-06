@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T07:06:35.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="Ybr6eP2DQc1hFOvF3pVW" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T07:37:50.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="YX23xwuzuLmzX_6tI5qa" version="24.3.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="441" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -100,6 +100,15 @@
         </mxCell>
         <mxCell id="I7gX6TklzmigMuzpeqTn-33" value="4:Kiểm tra tài khoản và mật khẩu&lt;br&gt;không được để trống" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="435" y="605" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="I7gX6TklzmigMuzpeqTn-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.466;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="I7gX6TklzmigMuzpeqTn-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="990" as="sourcePoint" />
+            <mxPoint x="643" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7gX6TklzmigMuzpeqTn-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="635" y="670" width="10" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
