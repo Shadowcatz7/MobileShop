@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T08:02:19.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="EhmVWf1e0B6gi2LrKXB6" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T08:06:15.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="qLNG3A6gGLUfhOwv1_3N" version="24.3.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="639" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1804" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,6 +256,37 @@
         </mxCell>
         <mxCell id="HwJ8LK8OYXeAmico5oYo-29" value="Lớp thông tin sản phẩm" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1860" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HwJ8LK8OYXeAmico5oYo-31" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="1" source="HwJ8LK8OYXeAmico5oYo-26" target="HwJ8LK8OYXeAmico5oYo-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1960" y="660" as="sourcePoint" />
+            <mxPoint x="2030" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1970" y="670" />
+              <mxPoint x="1960" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwJ8LK8OYXeAmico5oYo-32" value="6:Xóa sản phẩm&lt;br&gt;&amp;nbsp;trong CSDL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1895" y="630" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HwJ8LK8OYXeAmico5oYo-33" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1900" y="810" as="sourcePoint" />
+            <mxPoint x="1650" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwJ8LK8OYXeAmico5oYo-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1650" y="810" as="sourcePoint" />
+            <mxPoint x="1450" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HwJ8LK8OYXeAmico5oYo-35" value="7:Trả về kết quả" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="780" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HwJ8LK8OYXeAmico5oYo-36" value="8:Thông báo thành công" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="780" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
