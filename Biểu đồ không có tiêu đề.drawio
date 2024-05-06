@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-06T07:38:12.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="fTQI_IDMk88XXEmjDpI2" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T07:41:47.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="umG-ygtoavNH1Pp0Cvei" version="24.3.1" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="441" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="610" y="380" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="I7gX6TklzmigMuzpeqTn-5" value="Lớp tài khoản&amp;nbsp;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="390" width="80" height="80" as="geometry" />
+          <mxGeometry x="850" y="380" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="I7gX6TklzmigMuzpeqTn-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -43,9 +43,9 @@
             <mxPoint x="584.5" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="I7gX6TklzmigMuzpeqTn-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="I7gX6TklzmigMuzpeqTn-5">
+        <mxCell id="I7gX6TklzmigMuzpeqTn-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="I7gX6TklzmigMuzpeqTn-38" target="I7gX6TklzmigMuzpeqTn-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="940" y="1000" as="sourcePoint" />
+            <mxPoint x="890" y="990" as="sourcePoint" />
             <mxPoint x="749.5" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -115,6 +115,27 @@
             <mxPoint x="620" y="760" as="sourcePoint" />
             <mxPoint x="670" y="710" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="I7gX6TklzmigMuzpeqTn-37" value="5:Gửi yêu cầu kiểm tra đến CSDL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445" y="645" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7gX6TklzmigMuzpeqTn-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="I7gX6TklzmigMuzpeqTn-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="990" as="sourcePoint" />
+            <mxPoint x="890" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7gX6TklzmigMuzpeqTn-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="885" y="675" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I7gX6TklzmigMuzpeqTn-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="I7gX6TklzmigMuzpeqTn-34" target="I7gX6TklzmigMuzpeqTn-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="700" as="sourcePoint" />
+            <mxPoint x="730" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I7gX6TklzmigMuzpeqTn-41" value="6:Kiểm tra thông tin đăng nhập ở CSDL" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="645" y="650" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
