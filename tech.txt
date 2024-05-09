@@ -1,4 +1,4 @@
-In term of FrontEnd, I will use
+Trong phần FrontEnd, em sử dụng:
 	HTML
 	CSS
 	SASS

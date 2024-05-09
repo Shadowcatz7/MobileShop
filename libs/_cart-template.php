@@ -2,12 +2,12 @@
 <section id="cart" class="py-3 mb-5">
     <div class="container">
         <h5 class="font-size-20">
-            Shopping Cart <span>
+            Giỏ Hàng <span>
                 (<?php
                     if (isset($_SESSION['logged']) && $_SESSION['logged'] == true && isset($_SESSION['user_id'])) {
                         echo $acc->getAccount($_SESSION['user_id'], 'user')['fullname'];
                     } elseif ($_COOKIE['user_type'] == 0) {
-                        echo 'Guest';
+                        echo 'Khách hàng';
                     } else {
                         echo 'Admin';
                     }
@@ -88,7 +88,7 @@
                     <div class="sub-total border text-center mt-2">
                         <h6 class="font-size-12  text-success py-3">
                             <i class="fas fa-check"></i>
-                            Your order is eligible for FREE Delivery.
+                            Đơn hàng của bạn đã sẵn sàng để thanh toán!
                         </h6>
                         <div class="border-top py-4">
                             <h5 class="font-size-20">

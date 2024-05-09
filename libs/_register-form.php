@@ -3,8 +3,8 @@
     <div class="main py-3">
         <!-- sign up -->
         <form method="POST" class="form" id="sign-up">
-            <h3 class="heading">Sign up</h3>
-            <p class="desc">Register to receive offers from us right now!</p>
+            <h3 class="heading">Đăng ký</h3>
+            <p class="desc">Hãy đăng ký để sử dụng dịch vụ ngay nào!</p>
             <div class="row" style="width: 800px;">
                 <div class="col">
                     <div class="form-group">
@@ -103,8 +103,8 @@
                 </div>
             </div>
 
-            <button class="form-submit" type="submit" name="register-submit">Sign up</button>
-            <p class="desc">Already have an account? <a href="./login.html">Sign in</a></p>
+            <button class="form-submit" type="submit" name="register-submit">Đăng ký</button>
+            <p class="desc">Đã có sẵn tài khoản? <a href="./login.html">Đăng nhập</a></p>
         </form>
 
     </div>

@@ -11,13 +11,13 @@
                     <thead>
                         <tr>
                             <th scope="colgroup rowgroup">ID</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Brand</th>
-                            <th scope="col">Origin</th>
-                            <th scope="col">Price</th>
-                            <th scope="col">Image</th>
-                            <th scope="col">Action</th>
-                            <th scope="col">Action</th>
+                            <th scope="col">Tên Sản phẩm</th>
+                            <th scope="col">Thương hiệu</th>
+                            <th scope="col">Nguồn gốc</th>
+                            <th scope="col">Giá</th>
+                            <th scope="col">Hình ảnh</th>
+                            <th scope="col">Hành Động</th>
+                            <th scope="col">Hành Động</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -71,7 +71,7 @@
                         <?php endforeach; ?>
                     </tbody>
                 </table>
-                <button type="button" class="btn btn-secondary addItem">Add Item</button>
+                <button type="button" class="btn btn-secondary addItem">Thêm sản phẩm</button>
             </div>
         </form>
     </div>

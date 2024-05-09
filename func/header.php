@@ -84,10 +84,10 @@
                     ?>
 
          
-                <a href="./register.php" class="px-3 border-start text-dark">Register</a>
-                <a href="./account.php" class="px-3 border-start text-dark">Account</a>
-                <a href="./manage.php" class="px-3 border-start text-dark">Manage</a>
-                <a href="#" class="px-3 border-start text-dark">Payment</a>
+                <a href="./register.php" class="px-3 border-start text-dark">Đăng ký</a>
+                <a href="./account.php" class="px-3 border-start text-dark">Tài Khoản</a>
+                <a href="./manage.php" class="px-3 border-start text-dark">Quản lý sản phẩm</a>
+                <!-- <a href="#" class="px-3 border-start text-dark">Payment</a> quản lý giỏ hàng --> 
             </div>
         </div>
 
@@ -101,25 +101,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./index.php">Home</a>
+                        <a class="nav-link" href="./index.php">Trang chủ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.php#top-sale">Top sale</a>
+                        <a class="nav-link" href="./index.php#top-sale">Top sản phẩm</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.php#special-price">Special Price</a>
+                        <a class="nav-link" href="./index.php#special-price">Sản phẩm đặc biệt</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.php#new-phones">New Phones</a>
+                        <a class="nav-link" href="./index.php#new-phones">Sản phẩm mới</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.php#blogs">Blogs</a>
+                        <a class="nav-link" href="./index.php#blogs">Banner</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./cart.php">Cart</a>
+                        <a class="nav-link" href="./cart.php">Giỏ Hàng</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Coming Soon</a>
+                        <a class="nav-link" href="#">Sắp ra mắt</a>
                     </li>
                 </ul>
                 <form action="#" class="font-size-12">

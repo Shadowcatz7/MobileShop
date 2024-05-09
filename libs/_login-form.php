@@ -5,7 +5,7 @@
         <form method="POST" class="form" id="sign-in">
             <?php if ($_SESSION['logged'] == true) { ?>
                 <h3>
-                    Welcome back,
+                    Chào mừng trở lại,
                     <span>
                         <?php echo $acc->getAccount($_COOKIE['user_id'])['username'] ?>!
                     </span>
@@ -26,14 +26,14 @@
                 <p class="mb-2">
                     <span>Money: </span>
                     <strong class="text-danger">
-                        $
-                        <?php echo $acc->getAccount($_COOKIE['user_id'], 'user')['money'] ?>
+                        
+                        <?php echo $acc->getAccount($_COOKIE['user_id'], 'user')['money'] ?> VND
                     </strong>
                 </p>
-                <button class="form-submit" type="submit" name="logout-submit">Log out</button>
+                <button class="form-submit" type="submit" name="logout-submit">Đăng xuất</button>
             <?php } else { ?>
-                <h3 class="heading">Sign in</h3>
-                <p class="desc">Log in to enjoy exclusive offers for you!</p>
+                <h3 class="heading">Đăng nhập</h3>
+                <p class="desc">Hãy đăng nhập để sử dụng dịch vụ của chúng tôi!</p>
                 <div class="row" style="width: 400px;">
                     <div class="col">
                         <div class="form-group">
@@ -52,8 +52,8 @@
                     </div>
                 </div>
 
-                <button class="form-submit" type="submit" name="login-submit">Sign in</button>
-                <p class="desc">Don't have an account? <a href="./register.php">Sign up</a></p>
+                <button class="form-submit" type="submit" name="login-submit">Đăng nhập</button>
+                <p class="desc">Bạn chưa có tài khoản? <a href="./register.php">Đăng ký</a></p>
             <?php } ?>
         </form>
 
